@@ -1,0 +1,74 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Date and Time Functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37250</md:content-id>
+  <md:title>Date and Time Functions</md:title>
+  <md:abstract>Basic date and time functions in Excel.</md:abstract>
+  <md:uuid>4d930941-b9cf-4153-bdc6-e423cc904ef3</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-47"><title>Date and Time Functions</title><para id="eip-288">
+To Excel, a date is simply a number. More precisely, a date is a “serial number” that represents the number of days since January 0, 1900. A serial number of 1 corresponds to January 1, 1900; a serial number of 2 corresponds to January 2, 1900, and so on. This system makes it possible to deal with dates in formulas. For example, you can create a formula to calculate the number of days between two dates.
+</para></section><section id="eip-763"><title>Inputting Dates</title><para id="eip-416">
+You can enter a date directly as a serial number (if you know it), but more often you’ll enter a date using any of several recognized date formats. Excel automatically converts your entry into the corresponding date serial number (which it uses for calculations), and also applies the default date format to the cell so it displays as an actual date rather than a cryptic serial number. For example, if you need to enter January 25, 2010, you can simply enter the date by typing January 25, 2010 (or use any of several different date formats). Excel interprets your entry and stores the value 38741—the date serial number for that date. It also applies the default date format, so the cell contents may not appear exactly as you typed them.
+<code>January 25, 2010</code>
+</para></section><section id="eip-874"><title>Inputting Times</title><para id="eip-48">
+When you need to work with time values, you simply extend Excel’s date serial number system to include decimals. In other words, Excel works with times by using fractional days. For example, the date serial number for January 25, 2010 is 38741. Noon (halfway through the day) is represented internally as 38741.5.
+<code>01/25/10 12:00 PM</code>
+</para><example id="eip-270"><para id="eip-698">
+To calculate the difference between two times, you can subtract the earlier time from the later time to get the difference. For example, if cell A2 contains 5:30:00 and cell B2 contains 14:00:00, 
+<code>=B2-A2</code>
+returns 
+<code>08:30:00</code> 
+a difference of eight hours and 30 minutes. If the subtraction results in a negative value, however, it becomes an invalid time; Excel displays a series of pound signs (#######) because a time without a date has a date serial number of 0. A negative time results in a negative serial number, which is not permitted. This problem does not occur when you use a date along with the time.
+</para>
+</example><example id="eip-341"><para id="eip-584">
+
+To convert decimal hours to a time, divide the decimal hours by 24. For example, if cell A1 contains 9.25 (representing hours)
+
+<code>=A1/24</code>
+returns 
+<code>09:15:00</code>
+nine hours, 15 minutes.
+</para>
+</example><example id="eip-751"><para id="eip-356">
+To convert decimal minutes to a time, divide the decimal hours by 1,440 (the number of minutes in a day). For example, if cell A1 contains 500 (representing minutes)
+
+<code>=A1/1440</code>
+returns 
+<code>08:20:00</code>
+eight hours, 20 minutes.
+</para>
+</example><example id="eip-553"><para id="eip-299">
+
+To convert decimal seconds to a time, divide the decimal hours by 86,400 (the number of seconds in a day). For example, if cell A1 contains 65,000 (representing seconds)
+
+<code>=A1/86400</code>
+returns 
+<code>18:03:20</code> 
+18 hours, three minutes, and 20 seconds.
+</para>
+</example></section><section id="eip-984"><title>Formatting Dates and Times</title><para id="eip-973">
+Excel recognizes dates separated with a slash (/) or a hyphen (-) or dates entered using the month name. Times should be separated by colons (:). You have a great deal of flexibility in formatting cells that contain dates and times. For example, you can format the cell to display the date part only, the time part only, or both the date and time parts.
+</para></section><section id="eip-916"><title>The NETWORKDAYS Function</title><para id="eip-181">The NETWORKDAYS function returns the number of whole workdays between the dates entered in cells A2 and B2, for example, <code>=NETWORKDAYS(A2,B2)</code>
+</para><para id="eip-782">The syntax for the NETWORKDAYS function is: 
+<code>NETWORKDAYS(start_date,end_date,holidays)</code>
+</para><para id="eip-326">The NETWORKDAYS function’s arguments are as follows:</para><list id="eip-795"><item>Start_date: A date that represents the start date.</item>
+<item>End_date: A date that represents the end date.</item>
+<item>Holidays: An optional range of one or more dates to exclude from the working calendar.
+</item></list></section><section id="eip-643"><title>The WORKDAY Function</title><para id="eip-710">
+The WORKDAY returns a number that represents a date that is the indicated number of working days before or after a date (the starting date). Working days exclude weekends and any dates identified as holidays. For example, if you start a project on January 25, 2010 and the project requires 10 working days to complete, the WORKDAY function can calculate the date you will finish the project. A working day consists of a weekday (Monday through Friday).
+<code>=WORKDAY("1/25/2010",10)</code>
+returns
+<code>7-Feb-06</code>
+</para><para id="eip-158">The syntax for the WORKDAY function is: 
+<code>WORKDAY(start_date,days,holidays)</code></para><para id="eip-613">The NETWORKDAYS function’s arguments are as follows:</para><list id="eip-608"><item>Start_date: A date that represents the start date.</item>
+<item>Days: The number of nonweekend and nonholiday days before or after start_date. A positive value for days yields a future date; a negative value yields a past date.</item>
+<item>Holidays: An optional range of one or more dates to exclude from the working calendar.</item></list></section><para id="delete_me">
+     <!-- Insert module text here -->
+  </para>
+</content>
+
+</document>

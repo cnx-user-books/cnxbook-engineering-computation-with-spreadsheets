@@ -1,0 +1,144 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Anatomy of a Spreadsheet</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37231</md:content-id>
+  <md:title>Anatomy of a Spreadsheet</md:title>
+  <md:abstract>Definitions and basic operations.</md:abstract>
+  <md:uuid>d42bede3-0b1e-4da1-870c-3af7b057c3da</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-880"><title>Definitions</title>
+<definition id="Workbook"><term>Workbook</term>
+  <meaning id="meaning-part0">
+    A workbook is a spreadsheet file. By default, each workbook in Excel contains three sheets. Spreadsheet file names use .xls or .xlsx suffixes (i.e. file extension).
+  </meaning>
+</definition>
+<definition id="Worksheet"><term>Worksheet</term>
+  <meaning id="meaning-part1">
+A worksheet is a single sheet in a workbook. By default, a workbook contains three worksheets.
+  </meaning>
+</definition>
+<definition id="Column"><term>Column</term>
+  <meaning id="meaning-part2">
+A column is a vertical block in a worksheet. Each column is identified by a letter in the column header.
+</meaning>
+</definition>
+<definition id="Row"><term>Row</term>
+  <meaning id="meaning-part3">
+A row is a horizontal block in a worksheet. Each row is identified by a number in the row header.
+</meaning>
+</definition>
+<definition id="Cell"><term>Cell</term>
+  <meaning id="meaning-part4">
+A cell is the intersection of a column and a row. Cells are the basic building blocks of a worksheet. Each cell is assigned an address (e.g. cell reference, A1 means column A and row 1).
+</meaning>
+</definition>
+<definition id="Range"><term>Range</term>
+  <meaning id="meaning-part5">
+A range is block of cells in a worksheet.
+</meaning>
+</definition>
+<definition id="Formula"><term>Formula</term>
+  <meaning id="meaning-part6">
+A mathematical formula that is run to compute results. Formulae are made up of standard arithmetic operations (e.g. +, -, *, /, ^).
+</meaning>
+</definition>
+<definition id="Function"><term>Function</term>
+  <meaning id="meaning-part7">
+Functions are pre-constructed formulae that perform common calculations (e.g. summation and average). We can combine many functions and arithmetic operations in a single formula to carry out complex engineering computations.
+</meaning>
+</definition>
+</section>
+
+<section id="eip-719"><title>Arithmetic Operators</title><para id="eip-616">To perform basic mathematical operations, use the following arithmetic operators.
+<table id="eip-85" summary="The first column lists each arithmetic operator and the second column includes meaning and examples.">
+<tgroup cols="2"><thead>
+      <row>
+        <entry>Arithmetic Operator</entry>
+        <entry>Meaning (example)</entry>
+      </row>
+    </thead>
+    <tbody>
+      <row>
+        <entry>+ (Plus sign)</entry>
+        <entry>Addition (3+3)</entry>
+      </row>
+      <row>
+        <entry>- (Minus sign)</entry>
+        <entry>Subtraction (3-1) or negation (-1)</entry>
+      </row>
+      <row>
+        <entry>* (Asterisk)</entry>
+        <entry>Multiplication (3*3)</entry>
+      </row>
+      <row>
+        <entry>/ (Forward slash)</entry>
+        <entry>Division (3/3)</entry>
+      </row>
+      <row>
+        <entry>% (Percent sign)</entry>
+        <entry>Percent (20%)</entry>
+      </row>
+      <row>
+        <entry>^ (Caret)</entry>
+        <entry>Exponentiation (3^2)</entry>
+      </row>
+    </tbody>
+
+
+</tgroup><caption>Arithmetic Operators</caption>
+</table></para></section><section id="eip-565"><title>Comparison Operators</title><para id="eip-285">
+We can compare two values with the following operators, the result is a logical value either TRUE or FALSE.
+</para><table id="eip-676" summary="Comparison Operators">
+<tgroup cols="2"><thead>
+      <row>
+        <entry>Comparison operator</entry>
+        <entry>Meaning (example)</entry>
+      </row>
+    </thead>
+<tbody>
+  <row>
+    <entry>= (Equal sign)</entry>
+    <entry>Equal to (A1=B1)</entry>
+  </row>
+  <row>
+    <entry> &gt; (Greater than sign)</entry>
+    <entry>Greater than (A1&gt;B1)</entry>
+  </row>
+  <row>
+    <entry>(Less than sign)</entry>
+    <entry>Less than</entry>
+  </row>
+  <row>
+    <entry>&gt;= (Greater than or equal to sign)</entry>
+    <entry>Greater than or equal to (A1&gt;=B1)</entry>
+  </row>
+  <row>
+    <entry> Less than or equal to sign)</entry>
+    <entry>Less than or equal to </entry>
+  </row>
+  <row>
+    <entry>(Not equal to sign)</entry>
+    <entry>Not equal to </entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Comparison Operators</caption>
+</table></section><section id="eip-43"><title>Spreadsheet Window</title><para id="eip-821">Depending on the type and version of spreadsheet application you are using workbook window will contain many elements. Some of the major elements are illustrated below.
+
+<figure id="fig1">
+<media id="SpreadsheetWindow" alt="Spreadsheet Window.">
+	   
+  <image mime-type="image/jpeg" src="../../media/SpreadsheetWindow.jpg"/>		 
+</media>
+  <caption>
+    Workbook window contains many elements.
+  </caption>
+</figure>
+</para></section>
+</content>
+
+</document>

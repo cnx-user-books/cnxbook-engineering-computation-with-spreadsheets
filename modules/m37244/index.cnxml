@@ -1,0 +1,114 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Functions</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37244</md:content-id>
+  <md:title>Functions</md:title>
+  <md:abstract>Functions are predefined formulas that simplify manual entry and allows us to carry out calculations that would otherwise be impossible.</md:abstract>
+  <md:uuid>0f4cb63f-55d4-45f8-9c0e-450d0a15dc42</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-987"><title>Functions</title><para id="eip-11">
+The vast majority of engineering computations require a complex set of mathematical operations such as logarithms and trigonometric functions. Functions are predefined formulas that simplify manual entry and allows us to carry out calculations that would otherwise be impossible. Excel and other mainstream spreadsheet apps have an extensive library of built-in functions. For example, we can use the SUM function to total all the values in a column or use the MAX function to find the biggest number in a range of cells. However, functions can do a lot more than just math. They can look up data in another location, calculate cells only if they meet a specific criteria and combine the contents of two or more cells.
+</para></section><section id="eip-13"><title>Elements of a Function</title><para id="eip-919">
+A function can consist of five elements:
+
+</para><list id="eip-245"><item>Numerical values or text-strings (such as 1.2, or HeatLosses).</item>
+<item>Cell references (including named cells and ranges).</item>
+<item>Operators.</item>
+<item>Worksheet functions (e.g. SUM or AVERAGE) and their arguments.</item>
+<item>Parentheses to control the sequence of arithmetic operations.</item></list></section><section id="eip-325"><title>Miscellaneous Functions</title><para id="eip-940">
+The AVERAGE function returns the average of all the values in that array. The syntax is as follows:
+<code>=AVERAGE(A1:B5)</code>
+</para><para id="eip-200">The MIN function returns the smallest number in a set of values. The syntax is as follows:
+<code>=MIN(A1:B5)</code></para><para id="eip-711">The MAX function returns the largest value in a set of values. The syntax is as follows:
+<code>=MAX(A1:B5)</code></para><para id="eip-409">The SUM function adds all the numbers specified in a range. The syntax is as follows: <code>=SUM([number1],[number2],...])</code></para><para id="eip-28">The CONVERT function converts a number from one measurement system to another. The syntax for the CONVERT function is: 
+<code>=CONVERT(number,from_unit,to_unit)</code>
+The CONVERT function’s arguments are as follows:</para><list id="eip-706"><item>number: The value in from_units to convert.</item>
+<item>from_unit: The unit for number.</item>
+<item>to_unit: The unit for the result.</item></list><table id="eip-801" summary="Temperature conversion">
+<tgroup cols="2"><thead>
+      <row>
+        <entry>Temperature</entry>
+        <entry>From_unit or to_unit</entry>
+      </row>
+    </thead>
+<tbody>
+  <row>
+    <entry>Degree Celsius</entry>
+    <entry>"C" (or "cel")</entry>
+  </row>
+  <row>
+    <entry>Degree Fahrenheit</entry>
+    <entry>"F" (or "fah")</entry>
+  </row>
+  <row>
+    <entry>Kelvin</entry>
+    <entry>"K" (or "kel")</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup><caption>Conversion of Temperature Units</caption>
+</table><table id="eip-476" summary="Power conversion.">
+<tgroup cols="2"><thead>
+      <row>
+        <entry>Power</entry>
+        <entry>From_unit or to_unit</entry>
+      </row>
+    </thead><tbody>
+  <row>
+    <entry>Horsepower</entry>
+    <entry>"HP" (or "h")</entry>
+  </row>
+  <row>
+    <entry>Watt</entry>
+    <entry>"W" (or "w")</entry>
+  </row>
+</tbody>
+
+
+
+</tgroup><caption>Conversion of Power Units. </caption>
+</table><table id="eip-276" summary="Force conversion.">
+<tgroup cols="2"><thead>
+      <row>
+        <entry>Force</entry>
+        <entry>From_unit or to_unit</entry>
+      </row>
+    </thead><tbody>
+  <row>
+    <entry>Newton</entry>
+    <entry>"N"</entry>
+  </row>
+  <row>
+    <entry>Pound force</entry>
+    <entry>"lbf"</entry>
+  </row>
+</tbody>
+
+</tgroup><caption>Conversion of Force Units.</caption>
+</table><example id="eip-78"><para id="eip-878">
+To convert kilometers to miles:
+<code>=CONVERT(A2,"km","mi")</code>
+</para>
+</example><example id="eip-56"><para id="eip-462">
+To convert Celsius to Fahrenheit:
+<code>=CONVERT(A6,"C","F")</code>
+</para>
+</example><example id="eip-679"><para id="eip-993">
+To convert milligrams to kilograms:
+<code>=CONVERT(A10,"mg","kg")</code>
+</para>
+</example><example id="eip-768"><para id="eip-753">
+To convert days to seconds:
+<code>=CONVERT(A14,"day","sec")</code>
+</para>
+</example></section><para id="delete_me">
+     <!-- Insert module text here -->
+  </para>
+</content>
+
+</document>

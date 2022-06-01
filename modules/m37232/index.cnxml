@@ -1,0 +1,57 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Data Input</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37232</md:content-id>
+  <md:title>Data Input</md:title>
+  <md:abstract>Data input methods for Excel.</md:abstract>
+  <md:uuid>45c54995-87a3-45c0-af49-15d0afb7e0ee</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-827"><title>Data Input</title><para id="eip-668">
+The data that we input into a spreadsheet can be numbers, text, dates, or times and we have several options for entering data in Excel. 
+</para></section><section id="eip-507"><title>Fill Series</title><para id="eip-315"><list id="FillSeries" start-value="1" mark-suffix="-" item-sep="." list-type="enumerated"><item>Select the first cell in the range that you want to fill</item> 
+  <item>Type the starting value for the series</item> 
+  <item>Type a value in the next cell to establish a pattern</item>
+  <item>Select the cell or cells that contain the starting values</item>
+  <item>Drag the fill handle (the bottom right corner of the cell or range selected) across the range that you want to fill</item>
+</list>
+</para><note id="eip-788">To fill in increasing order, drag down or to the right or to fill in decreasing order, drag up or to the left.</note></section><section id="eip-151"><title>Auto Fill</title><para id="eip-432">
+This feature creates a series that produces the same results as dragging the fill handle in "Fill Series" procedure and is useful when we want to enter months, days and dates in general.
+</para><table id="eip-474" summary="Auto Fill feature.">
+<tgroup cols="2"><thead>
+      <row>
+        <entry>Initial selection</entry>
+        <entry>Extended series (example)</entry>
+      </row>
+    </thead>
+<tbody>
+  <row>
+    <entry>1, 2, 3</entry>
+    <entry>4, 5, 6,...</entry>
+  </row>
+  <row>
+    <entry>1:00</entry>
+    <entry>2:00, 3:00, 4:00,...</entry>
+  </row>
+  <row>
+    <entry>Monday</entry>
+    <entry>Tuesday, Wednesday, Thursday,...</entry>
+  </row>
+  <row>
+    <entry>Jan</entry>
+    <entry>Feb, Mar, Apr,...</entry>
+  </row>
+</tbody>
+
+
+</tgroup><caption>Auto Fill examples.</caption>
+</table></section><section id="eip-778"><title>Auto Complete</title><para id="eip-366">
+When we enter data in a column, typing the first few letters in a cell will suggest the existing value. Using this technique will eliminate typing errors.
+</para></section><section id="eip-55"><title>Pick From List</title><para id="eip-195">
+When we enter data in a column, right-clicking the first blank cell will trigger a shortcut menu list. Selecting "Pick from List" option lists existing values and we can choose one of the values. By using this technique we can eliminate typing errors.
+</para></section>
+</content>
+
+</document>

@@ -1,0 +1,22 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Preface</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35867</md:content-id>
+  <md:title>Preface</md:title>
+  <md:abstract>This text should help readers to learn several problem solving techniques and introductory level engineering computation.</md:abstract>
+  <md:uuid>afae6e06-5336-4eed-b65e-bd7901a95c7c</md:uuid>
+</metadata>
+
+<content>
+  <para id="eip-382"><preformat id="dedicate">
+                                                                            In my tenth year at the Institute, 
+                                                                                           I dedicate this book to 
+                                                                              the dedicated members of the BCIT community.
+</preformat> 
+
+</para><para id="delete_me">This textbook has no goals to become The New York Times best-seller however it should help readers to learn several problem solving techniques and introductory level engineering computation. This text can also serve as a companion course manual for various engineering courses such as Engineering Laboratory, Applied Mechanics and Heat Transfer within the Power and Process Engineering program.
+  </para><para id="eip-428">The best way to learn about engineering computation with spreadsheets is to actually do it. We will therefore solve many engineering problems mainly using Microsoft Excel in this book. Since the focus of the book is engineering computation, we will concentrate on the mathematical solutions, built-in engineering and scientific functions and, to a limited extent, the presentation of computational results. Thus, I assume the reader has a working knowledge of Microsoft Excel under either OS X or Windows operating systems. Those readers who are not comfortable with the basic functionality of Microsoft Excel should keep a good reference book handy as they read this text. I also assume that the reader is competent at first year Mathematics and Physics. However, access to good reference books are highly recommended.     </para><note id="eip-129">Spreadsheets have evolved since their first appearance. I have used spreadsheets since 1997 and witnessed their visual transformation (i.e. GUI). While the current version of mainstream spreadsheet applications can offer attractive GUIs, process much more data and perform faster calculations, the commands and their syntax have hardly changed. What you will learn in this book is mostly independent of the various versions of Microsoft Excel available today.</note>
+</content>
+
+</document>

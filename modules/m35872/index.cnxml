@@ -1,0 +1,39 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>What is a Spreadsheet?</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35872</md:content-id>
+  <md:title>What is a Spreadsheet?</md:title>
+  <md:abstract>Intro to spreadsheets</md:abstract>
+  <md:uuid>86c03ea5-7ccd-4e03-8abc-c88d4aab0f19</md:uuid>
+</metadata>
+
+<content>
+  <para id="eip-664"><media id="Chapter1" alt="What's a Spreadsheet?">
+	   
+  <image mime-type="image/jpg" src="../../media/Chapter1.jpg"/>
+		 
+</media></para><para id="delete_me"><!-- Insert module text here -->
+A spreadsheet such as Calc and Excel is an office productivity application that allows us to analyze quite large amounts of data. With spreadsheets, we can easily input and manipulate data and carry out engineering computations. We can also summarize and present computational results with tables and graphs which then can be displayed on screen or printed.</para><para id="eip-335">Let's consider the examples below.</para><example id="eip-26"><para id="eip-854">In industry, insulating a pipe is a common practice because it is an inexpensive method of retarding heat loss. In some cylindrical geometry cases, however, adding insulation causes an increase in the heat loss. Consider a 1 nominal pipe (OD = 3.340 cm) covered with kapok insulation (k = 0.035 W/[mK]). Assume that the outside-pipe-wall temperature is 200°C and that the insulation covering the pipe transfers heat to ambient air at 20°C, with a = 1.7 W/(m2K). We have not stated an insulation thickness but instead will allow the thickness to vary from 0 (no insulation) to 2.5 cm. The effect we are examining is how the insulation thickness affects the heat-transfer rate (neglecting radiation loss).
+  <footnote id="EngineeringHeatTransfer"> 
+    <cite>
+  <cite-title>Engineering Heat Transfer</cite-title>
+  by Janna, William, CRC Press. © 2009, (p.xx)
+</cite>
+  </footnote>
+
+ 
+</para>
+</example><para id="eip-887">In this problem we can investigate the effect of insulation thickness using a spreadsheet. We can compute the heat loss from the insulated pipe when the thickness varies from 0 (no insulation) to 2.5 cm say, using 0.1 cm increments. We can then plot the output data on a graph, Heat loss per unit length (y-axis) – Insulation thickness (x-axis). The spreadsheet we have created clearly displays this interesting phenomena.</para><example id="eip-470"><para id="eip-215">One side of a refrigerated cold chamber is 6 m long by 3.7 m high and consists of 168 mm thickness of cork between outer and inner walls of wood. The outer wood wall is 30 mm thick and its outside face temperature is 20 °C, the inner wood wall is 35 mm thick and its inside face temperature is -3°C. Taking the thermal conductivity of cork and wood as 0.042 and 0.2 W/mK respectively, calculate the heat transfer per second per square metre of surface area.
+
+<footnote id="AppliedHeatforEngineers"> 
+    <cite>
+  <cite-title>Reed's Applied Heat for Engineers</cite-title>
+  by Embloton, W., Jackson, L. Thomas Reed Publications. © 1999
+</cite>
+  </footnote>
+</para>
+</example><para id="eip-307">For this problem, we can quickly input the given data and calculate the heat transfer in a spreadsheet. In a follow up problem, for instance if a better insulating material is used in the same configuration, we can easily find the percentage reduction in heat transfer for the cold room and calculate the savings.</para><para id="eip-979">In a nutshell, spreadsheets can minimize or eliminate repetitive calculations when solving engineering problems.</para>
+</content>
+
+</document>

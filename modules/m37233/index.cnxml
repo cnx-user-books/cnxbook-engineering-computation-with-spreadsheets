@@ -1,0 +1,60 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>Formulas</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m37233</md:content-id>
+  <md:title>Formulas</md:title>
+  <md:abstract>Elements of a Formula</md:abstract>
+  <md:uuid>2572b74a-5b7d-4ffe-80f4-563b3a1d00ae</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-235"><title>Elements of a Formula</title><para id="eip-498">Formulas are instructions that perform calculations on the worksheet. Formulas can be very simple or extremely complex. A formula begins with an equals sign (=) followed by one or more values and functions to calculate. The values can be entered directly into the formula, but it is more effective to enter the values into cells on the worksheet and make references to those cells in the formula. </para><para id="eip-712">A formula can consist of five elements:
+
+<list id="ElementOfFormula"><title>Elements of a Formula</title><item>Numerical values or text-strings (such as 1.2, or HeatLosses.</item>
+  <item>Cell references (including named cells and ranges).</item>
+  <item>Operators.</item>
+  <item>Worksheet functions (e.g. SUM or AVERAGE) and their arguments.</item>
+  <item>Parentheses to control the sequence in which expressions within a formula are evaluated.</item>
+</list> </para><note id="eip-782" type="tip">To display the syntax of all formulas in a sheet:
+Press "Ctrl+ë" (the ë symbol is located to the left of the number 1 on the keyboard).</note></section><section id="eip-45"><title>Cell and Range References</title><para id="eip-974">Most formulas make a reference to one or more cells by using the cell or range address or name. Cell references come in four styles; the dollar sign differentiates them:
+
+</para><para id="eip-553"><definition id="Relative"><term>Relative reference</term>
+  <meaning id="reference1">
+The reference is fully relative. When the formula is copied, the cell reference adjusts to its new location. Example: A1
+  </meaning>
+</definition>
+<definition id="Absolute"><term>Absolute reference</term>
+  <meaning id="reference2">
+The reference is fully absolute. When the formula is copied, the cell reference does not change. Example: $A$1
+  </meaning>
+</definition>
+<definition id="RowAbsolute"><term>Row absolute reference</term>
+  <meaning id="reference3">
+The reference is partially absolute. When the formula is copied, the column part adjusts, but the row part does not change. Example: A$1
+  </meaning>
+</definition>
+<definition id="ColumnAbsolute"><term>Column absolute reference</term>
+  <meaning id="reference4">
+The reference is partially absolute. When the formula is copied, the row part adjusts, but the column part does not change. Example: $A1
+  </meaning>
+</definition></para><note id="eip-100" type="tip">The "F4" keyboard shortcut has four states:
+<list id="forces-list"><item>Absolute reference to the column and row, <code>=$A$1</code></item> 
+  <item>Relative reference (column) and Absolute reference (row), <code>=A$1</code></item> 
+  <item>Absolute reference (column) and Relative reference (row), <code>=$A1</code></item>
+  <item>Relative reference to the column and row, <code>=A1</code></item>
+</list>
+</note><section id="eip-309"><title>Referencing other worksheets or workbooks</title><para id="eip-589">
+References to cells and ranges do not need to appear in the same sheet as the formula. To refer to a cell in a different worksheet, precede the cell reference with the sheet name followed by an exclamation point. Here is an example of a formula that uses a cell reference in a different worksheet (Sheet3): <code>=Sheet3!A1+1</code>
+</para><para id="eip-919">You can also create link formulas that refer to a cell in a different workbook. To do so, precede the cell reference with the workbook name (in square brackets), the worksheet name, and an exclamation point like this:
+
+<code>=[Maintenance.xls]Sheet3!A1+1</code></para><para id="eip-578">If the workbook name in the reference includes one or more spaces, you must enclose it (and the sheet name) in single quotation marks. For example:
+
+<code>=\[Maintenance Records.xls]Sheet1í!A1+A1</code></para><para id="eip-264">If the linked workbook is closed, you must add the complete path to the workbook reference. For example:
+
+<code>=íC:\ExcelCourse\[Maintenance Records.xls]Sheet1í!A1+A1</code></para></section></section><para id="delete_me">
+     <!-- Insert module text here -->
+  </para>
+</content>
+
+</document>

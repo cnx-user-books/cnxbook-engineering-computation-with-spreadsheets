@@ -1,0 +1,32 @@
+<document xmlns="http://cnx.rice.edu/cnxml">
+
+<title>A Brief History of Spreadsheets</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m35870</md:content-id>
+  <md:title>A Brief History of Spreadsheets</md:title>
+  <md:abstract>A brief history of spreadsheets, optional content</md:abstract>
+  <md:uuid>60995730-33ab-4731-830b-ed8d5027694a</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me"><!-- Insert module text here -->
+Probably, you did not think that I would talk about "history" in an engineering course. However, the history of spreadsheets is quite interesting and a brief section is included here. Students should feel free to fast-forward to the next section, and no, the history of spreadsheets is not on the test.  </para><para id="eip-878">It all started with VisiCalc.
+<footnote id="MicrosoftExcel2000Formulas"> 
+    <cite>
+  <cite-title>Microsoft Excel 2000 Formulas</cite-title>
+  by Walkenbach, John, John Wiley and Sons. © 1999, (p.xx)
+</cite>
+  </footnote>
+Dan Bricklin and Bob Frankston built the world's first electronic spreadsheet application VisiCalc in the late 1970s. VisiCalc was written for the Apple II computer and it became popular very quickly. As a result of that, VisiCalc is often credited for the Apple II’s early success.</para><para id="eip-611">The advent of IBM PC in 1982 popularized personal computers even more. VisiCalc was ported to the PC environment without delay. A small group of computer enthusiasts refined the spreadsheet concept in Cambridge, Massachusetts. Headed by Mitch Kapor and Jonathon Sachs, Lotus Development Corporation designed and launched Lotus 1-2-3 in January 1983. Lotus 1-2-3 was an instant success. Despite its high price tag, it quickly sold more than VisiCalc. Conceivably, Lotus 1-2-3 was the most popular application ever and contributed significantly to the success of the IBM PC in the corporate environment.</para><para id="eip-418">In 1982, Microsoft released its first spreadsheet app, MultiPlan a.k.a. EP (a code name for "Electronic Paper"). It was introduced as a competitor for VisiCalc and the app was subsequently ported to several other platforms, including Apple II, Apple III and MS-DOS. MultiPlan was difficult to learn and use, not surprisingly, Lotus 1-2-3 outsold MultiPlan.</para><para id="eip-967">Microsoft developed Excel originally for the 512K Apple Macintosh in the mid 1980s. This version of Excel was one of the first spreadsheets to use a graphical user interface (GUI). Many people bought Apple Macintoshes so that they could use Microsoft’s Excel spreadsheet application. When Microsoft launched the Windows operating system in 1987, Excel was one of the first application products released for it and Excel became Microsoft's flagship product.</para><para id="eip-255">The most valuable player in the world of spreadsheets is probably Calc from <link url="http://www.openoffice.org/" window="new">OpenOffice.org</link>.
+
+To complete your awareness of various spreadsheet apps, google for the following programs (in no particular order):
+
+<list id="eip-id1166994789499">
+  <item>KSpread</item>
+  <item>wikiCalc</item>
+  <item>iWork Numbers</item>
+  <item>Google Spreadsheets</item>
+</list></para>
+</content>
+
+</document>
