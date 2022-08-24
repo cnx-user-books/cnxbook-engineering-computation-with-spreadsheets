@@ -1,3 +1,36 @@
-<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Textbook">  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">  <md:content-id>col11235</md:content-id>  <md:title>Engineering Computation with Spreadsheets</md:title>      <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>  <md:language>en</md:language>        <md:uuid>23863096-da87-4f8e-8b64-13bf66783c4c</md:uuid>
-<md:slug>engineering-computation-with-spreadsheets</md:slug>
-</metadata>  <col:content>          <col:module document="m35867"/>                                          <col:subcollection>        <md:title>Introduction</md:title>                                <col:content>                    <col:module document="m35872"/>                            <col:module document="m35870"/>                            <col:module document="m37231"/>                            <col:module document="m37232"/>                            <col:module document="m37262"/>                            <col:module document="m37270"/>                          </col:content>      </col:subcollection>                            <col:subcollection>        <md:title>Getting Started</md:title>                                <col:content>                    <col:module document="m37256"/>                            <col:module document="m37233"/>                            <col:module document="m37244"/>                            <col:module document="m37250"/>                            <col:module document="m37272"/>                            <col:module document="m37269"/>                          </col:content>      </col:subcollection>      </col:content></col:collection>
+<?xml version="1.0"?>
+<col:collection xmlns="http://cnx.rice.edu/collxml" xmlns:md="http://cnx.rice.edu/mdml" xmlns:col="http://cnx.rice.edu/collxml" xml:lang="en" type="Textbook" authors="Serhat Beyenir">
+  <metadata xmlns:md="http://cnx.rice.edu/mdml" mdml-version="0.5">
+    <md:content-id>col11235</md:content-id>
+    <md:title>Engineering Computation with Spreadsheets</md:title>
+    <md:license url="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution License 3.0</md:license>
+    <md:language>en</md:language>
+    <md:uuid>23863096-da87-4f8e-8b64-13bf66783c4c</md:uuid>
+    <md:slug>engineering-computation-with-spreadsheets</md:slug>
+  </metadata>
+  <col:content>
+    <col:module document="m35867"/>
+    <col:subcollection>
+      <md:title>Introduction</md:title>
+      <col:content>
+        <col:module document="m35872"/>
+        <col:module document="m35870"/>
+        <col:module document="m37231"/>
+        <col:module document="m37232"/>
+        <col:module document="m37262"/>
+        <col:module document="m37270"/>
+      </col:content>
+    </col:subcollection>
+    <col:subcollection>
+      <md:title>Getting Started</md:title>
+      <col:content>
+        <col:module document="m37256"/>
+        <col:module document="m37233"/>
+        <col:module document="m37244"/>
+        <col:module document="m37250"/>
+        <col:module document="m37272"/>
+        <col:module document="m37269"/>
+      </col:content>
+    </col:subcollection>
+  </col:content>
+</col:collection>
